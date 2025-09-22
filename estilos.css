@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    height: 65px;
+    background-color: #3f4a5bbc;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.imagen{
+    border-radius: 500px;
+    height: 200px;
+}
+.uno{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100vh - 65px);
+    background-color: #303030;
+    color: white;
+    padding-top: 10%;
+}
+.contenedor{
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 50%;
+}
+.caja-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #424242;
+}
+.caja-presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color:#f2f2f2;
+    color: #303030;
+    padding: 10px;
+}
+.dos{
+    background-color: #f2f2f2;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.aptitudes{
+    width: 50%;
+}
+.tech-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.tech{
+    height: 90px;
+}
+.tres{
+    background-color: #303030;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: #f2f2f2
+}
+.proyectos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    gap: 20px;
+}
+footer {
+  text-align: center; /* centra el h2 y el p */
+}
+hr{
+width: 2px;
+  height: 30px;
+  background-color: gray;
+  border: none;
+  margin: 0;          /* elimina espacio adicional */
+  padding: 0;
+}
+.contacto {
+  display: flex;
+  justify-content: center;  /* centra las imágenes */
+  align-items: center;
+  gap: 10px;                /* poco espacio entre ellas */
+  margin-top: 10px;
+}
+.red-social {
+  width: 50px;
+  height: 50px;
+}
+
